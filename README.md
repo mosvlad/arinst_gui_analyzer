@@ -44,7 +44,7 @@
 
 1. **Скачайте проект:**
 ```bash
-git clone git remote add origin https://github.com/mosvlad/arinst_gui_analyzer.git
+git clone https://github.com/mosvlad/arinst_gui_analyzer.git
 cd arinst_gui_analyzer
 ```
 
