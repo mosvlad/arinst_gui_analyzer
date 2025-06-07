@@ -1,0 +1,286 @@
+# Arinst Spectrum Analyzer GUI - .gitignore
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# ================================
+# PyInstaller
+# ================================
+*.manifest
+*.spec
+build/
+dist/
+
+# ================================
+# IDE / Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints
+*.ipynb
+
+# ================================
+# PyQt / GUI specific
+# ================================
+*.ui.py
+*.qrc.py
+ui_*.py
+qrc_*.py
+
+# ================================
+# Data & Export Files
+# ================================
+# Spectrum data exports
+*.csv
+spectrum_data_*.csv
+spectrum_*.csv
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+*.bmp
+screenshot_*.png
+spectrum_screenshot_*.png
+
+# Recorded data
+*.json
+recordings/
+data/
+exports/
+logs/
+*.log
+
+# Waterfall saves
+waterfall_*.png
+
+# ================================
+# Configuration Files
+# ================================
+# User settings (keep only templates)
+settings.ini
+config.ini
+user_config.json
+.config
+
+# Device specific
+device_settings.json
+calibration_data.json
+
+# ================================
+# Windows
+# ================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ================================
+# macOS
+# ================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ================================
+# Linux
+# ================================
+*~
+.directory
+.Trash-*
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+temp/
+tmp/
+
+# ================================
+# Version Control
+# ================================
+.git/
+.gitattributes
+.svn/
+.hg/
+
+# ================================
+# Testing
+# ================================
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+htmlcov/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ================================
+# Documentation
+# ================================
+docs/_build/
+site/
+.readthedocs.yml
+
+# ================================
+# Databases
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Compiled binaries
+# ================================
+*.exe
+*.dll
+*.dylib
+*.pyd
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Package managers
+# ================================
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# conda
+.conda/
+
+# ================================
+# Application specific
+# ================================
+# Arinst device cache
+device_cache/
+*.arinst_cache
+
+# Application logs
+arinst_*.log
+spectrum_analyzer.log
+error.log
+debug.log
+
+# User data
+user_data/
+preferences/
+
+# Backup files from IDE/editors
+*.bak.*
+*~$*
+
+# ================================
+# Compiled Qt files
+# ================================
+*.qm
+*.pro.user*
+*.pri
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# ================================
+# Archive files (except distribution)
+# ================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+backup_*.zip
+
+# ================================
+# Keep these files
+# ================================
+# Essential project files (force include)
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
+!install.bat
+!start.bat
+!start.py
+!run.py
+!arinst_device.py
+!advanced_features.py
+
+# Example configuration files
+!config_template.ini
+!settings_example.json 
